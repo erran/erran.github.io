@@ -3,7 +3,7 @@ define(['text!./repos.html', 'underscore'], function (tpl, _) {
   var template = _.template(tpl);
 
   return {
-    
+
     defaultParams: {
       per_page: 100,
       page: 1
